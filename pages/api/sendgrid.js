@@ -7,7 +7,7 @@ export default async function sendEmail(req,res) {
     to: req.body.email,
     from: 'lumenwrites@gmail.com',
     subject: 'Test email from vercel',
-    text: 'Click <a href="https://rpgadventures.io/api/users/verify-magic-link?authToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InJheW1lc3RhbGV6QGdtYWlsLmNvbSJ9.Q6nKidStNZTBuI6gGMz9aDMqjUPfx4NspRpwqiUogLY">this link</a> to sign in to your account.',
+    text: 'This is a test email from my vercel app',
   }
   console.log('Sending email', msg)
   try {
